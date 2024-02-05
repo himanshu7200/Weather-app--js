@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    
+}
+.main{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   flex-direction: column;
+   gap: 30px;
+   background-image: url(./istockphoto-1286913307-612x612.jpg);
+   
+   
+  }
+
+  .navbar{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5936B4;
+    padding: 10px;
+    color: white;
+  }
+
+
+.container1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    padding-inline: 3%;
+    z-index: 2;
+    
+  
+}
+
+#con{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px double rgb(70, 70, 70);
+    padding-block: 20px;
+    padding-inline: 30px;
+    border-radius: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+
+#con h3{
+    font-size: 29px;
+    text-align: center;
+}
+.newbutton{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+}
+
+
+#inpu{
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 20px 0px 0px 20px;
+    color: black;
+    border: none;  
+    border: 2px solid black;
+    border-right: none;
+    
+    
+}
+
+#btn{
+    padding-inline: 15px;
+    padding-block: 10px;
+    border: 2px solid #804eff;
+    border-radius: 0px 20px 20px 0px;
+    /* background-color: rgb(255, 0, 0); */
+    background-color: #804eff;
+    color: white;
+    border-left: none;
+}
+
+.card {
+    width: 342px;
+    height: 184px;
+    position: relative;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 4;
+  }
+  
+  .background {
+    fill: linear-gradient(90deg, #7741ff 100%, #362A84 0%);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
+  
+  .cloud {
+    position: absolute;
+    right: 0;
+    bottom: 18px;
+    color: white;
+  }
+  
+  .cloud svg {
+    height: 120px;
+  }
+  
+  .card .main-text {
+    font-size: 36px;
+    z-index: 2;
+  }
+  
+  .card .info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card .info .text-gray {
+    /* color: rgba(235, 235, 245, 0.60); */
+    font-size: 26px;
+  }
+  
+  .card .info .info-right {
+    align-self: flex-end;
+  }
+  
+
